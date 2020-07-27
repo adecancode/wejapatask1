@@ -1,14 +1,20 @@
 <template>
   <div id="app">
     <div>
-    <h1>Adebayo Temitope Samuel</h1>
+    <h1 v-if="seen">Adebayo Temitope Samuel</h1>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data: () => {
+    return{
+        seen: true
+    }
+  }
+  
 }
 </script>
 
