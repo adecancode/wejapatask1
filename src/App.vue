@@ -1,6 +1,8 @@
 <template>
   <div id="app">
+    <div>
     <h1>Adebayo Temitope Samuel</h1>
+    </div>
   </div>
 </template>
 
