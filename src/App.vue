@@ -1,20 +1,17 @@
 <template>
   <div id="app">
-    <div>
-    <h1 v-if="seen">Adebayo Temitope Samuel</h1>
-    </div>
+    <MyName name="Adebayo Temitope Samuel"/>
   </div>
 </template>
 
 <script>
+import MyName from './components/MyName.vue'
+
 export default {
   name: 'App',
-  data: () => {
-    return{
-        seen: true
-    }
+  components: {
+    Myname
   }
-  
 }
 </script>
 
